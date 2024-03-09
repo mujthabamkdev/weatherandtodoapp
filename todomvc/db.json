@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "e9c81576-05fd-4209-818a-e3d51d3b4454",
+      "text": "Todo 1",
+      "isCompleted": true
+    },
+    {
+      "id": "c8e6fb9e-e4fe-43ba-acd2-feb9f077cb27",
+      "text": "pray",
+      "isCompleted": true
+    }
+  ]
+}

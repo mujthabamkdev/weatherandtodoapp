@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "Byjb1uY"
+    },
+    {
+      "id": "6oe9c5b"
+    },
+    {
+      "title": "Hello JS",
+      "id": "9Qz5_F9"
+    },
+    {
+      "title": "Hello JS",
+      "id": "nBsTU9B"
+    },
+    {
+      "title": "a",
+      "id": "1sYYwCu"
+    },
+    {
+      "title": "Hello MJ",
+      "id": "TtmGBGp"
+    }
+  ]
+}

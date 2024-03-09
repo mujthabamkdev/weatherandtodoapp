@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- <link rel="stylesheet" href="css/weather.css" />  -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+   <section class="todoapp">
+      <header class="header">
+        <h1>Todos</h1>
+        <input
+          class="new-todo"
+          placeholder="What needs to be done?"
+          autofocus
+        />
+      </header>
+      <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox" />
+        <label for="toggle-all">Mark all as complete</label>
+        <ul class="todo-list"></ul>
+      </section>
+      <footer class="footer">
+        <span class="todo-count"><strong>0</strong> items left</span>
+        <ul class="filters">
+          <li filter="all">
+            <a class="selected">All</a>
+          </li>
+          <li filter="active">
+            <a>Active</a>
+          </li>
+          <li filter="completed">
+            <a>Completed</a>
+          </li>
+        </ul>
+      </footer>
+    </section> 
+    <!-- <div class="weather-block"> 
+       <form class="location-search"> 
+         <input 
+           type="text" 
+           placeholder="City, Country" 
+           class="location-search-input" 
+         /> 
+       </form> 
+       <div class="weather-info-block hidden"> 
+         <img class="weather-info-image" /> 
+         <div class="weather-info-temp"></div> 
+         <div class="weather-info-name"></div> 
+         <div class="weather-info-details"> 
+           <div class="weather-info-detail"> 
+             <b>Feels like:</b> <span class="feels-like"></span>°C 
+           </div> 
+           <div class="weather-info-detail"> 
+             <b>Humidity:</b><span class="humidity"></span>% 
+           </div> 
+           <div class="weather-info-detail"> 
+             <b>Wind speed:</b><span class="wind-speed"></span> km/h 
+           </div> 
+         </div> 
+       </div> 
+     </div> -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
